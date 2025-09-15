@@ -1,0 +1,17 @@
+[
+    { "title": "Dragibus", "content": "Petites billes colorées au goût fruité, tendres et sucrées.", "footer": "1,50 €" },
+    { "title": "Caramel mou", "content": "Bonbon tendre au caramel fondant, parfait pour les gourmands.", "footer": "2,00 €" },
+    { "title": "Fraise Tagada", "content": "Bonbon moelleux au goût de fraise, enrobé de sucre.", "footer": "1,80 €" },
+    { "title": "Ourson gélifié", "content": "Bonbon gélifié en forme d’ourson, saveurs assorties.", "footer": "1,60 €" },
+    { "title": "Sucette fruitée", "content": "Sucette ronde aux arômes de fruits, idéale pour les enfants.", "footer": "0,80 €" },
+    { "title": "Réglisse", "content": "Bonbon noir au goût intense de réglisse, pour les amateurs.", "footer": "1,20 €" },
+    { "title": "Cola Bottles", "content": "Bonbons gélifiés en forme de bouteille, goût cola.", "footer": "1,70 €" },
+    { "title": "Bonbon acidulé", "content": "Bonbon dur au goût acidulé, pour une explosion de saveurs.", "footer": "1,40 €" },
+    { "title": "Arlequin", "content": "Bonbon dur multicolore, goût fruité et acidulé.", "footer": "1,90 €" },
+    { "title": "Crocodile gélifié", "content": "Bonbon gélifié en forme de crocodile, saveurs variées.", "footer": "1,60 €" },
+    { "title": "Boule de gomme", "content": "Petite boule colorée, tendre et sucrée.", "footer": "1,30 €" },
+    { "title": "Bonbon à la menthe", "content": "Bonbon dur à la menthe, rafraîchissant et doux.", "footer": "1,10 €" },
+    { "title": "Bonbon au miel", "content": "Bonbon dur au miel, apaisant pour la gorge.", "footer": "1,50 €" },
+    { "title": "Bonbon cerise", "content": "Bonbon gélifié au goût de cerise, rouge et sucré.", "footer": "1,80 €" },
+    { "title": "Bonbon banane", "content": "Bonbon moelleux en forme de banane, goût fruité.", "footer": "1,70 €" }
+]

@@ -1,0 +1,77 @@
+.navbar {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--card-border-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+    /* Pour éviter que le contenu passe sous la navbar */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+
+    .navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+        width: 100%;
+        height: 64px;
+        padding: 0 24px;
+    }
+
+    .navbar-logo {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #2563eb;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
+
+    .navbar-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            a {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: var(--card-color);
+                border-radius: 0.5rem;
+                text-decoration: none;
+                font-weight: 500;
+                transition: background 0.2s, color 0.2s;
+
+                &:hover {
+                    background: #f1f5f9;
+                    color: #2563eb;
+                }
+            }
+        }
+    }
+
+    .navbar-toggle {
+        background: none;
+        border: 1px solid var(--card-border-color);
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+        color: var(--card-color);
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+
+        &:hover {
+            background: #f1f5f9;
+            color: #2563eb;
+        }
+    }
+}
