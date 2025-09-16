@@ -1,14 +1,19 @@
 import { Component } from "react";
 import Cars from './Cars';
+import ImgDKW from '../../data/img/68aef2a2c2aea.webp'
+import ImgFuego from "../../data/img/68aefead136ac.jpg"
+import ImgMini1000 from "../../data/img/68aefead136ac.jpg"
+import ImgRegal from "../../data/img/68aefead136ac.jpg"
+import ImgPégase from "../../data/img/68aefead136ac.jpg"
 
 class Mycars extends Component {
     state = {
         voitures: [
-            { name : 'DKW', color : 'white and red', year : 1870 },
-            { name : 'Fuego', color : 'black', year : 1953 },
-            { name : 'Mini 1000', color : 'Anis', year : '1989' },
-            { name : 'Regal', color : 'Blue', year : '' },
-            { name : 'Pégase', color : 'Red', year : 1935 }
+            { name : 'DKW', color : 'white and red', year : 1870, img : "68aef2a2c2aea.webp"},
+            { name : 'Fuego', color : 'black', year : 1953, img : "68aefead136ac.jpg" },
+            { name : 'Mini 1000', color : 'Anis', year : '1989', img :"68af00043644b.jpg" },
+            { name : 'Regal', color : 'Blue', year : '', img: "68af0d54d7b8d.jpg" },
+            { name : 'Pégase', color : 'Red', year : 1935, img: "68af032517fb4.jpg" }
         ]
     }
 
@@ -38,7 +43,7 @@ class Mycars extends Component {
                 <h1>{this.props.title}</h1>
                 <button onClick={this.addTenYears}> Ajouter 10 ans </button>
                 {this.state.voitures.map((voiture, idx) => (
-                    <Cars key={idx} color={voiture.color} year={voiture.year} annee={voiture.year ? this.getAge(voiture.year) : ""} >{voiture.name}</Cars>
+                    <Cars key={idx} color={voiture.color} year={voiture.year} img={voiture.img} annee={voiture.year ? this.getAge(voiture.year) : ""} >{voiture.name}</Cars>
                 ))}
             </div>
         )

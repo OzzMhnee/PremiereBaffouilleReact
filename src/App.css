@@ -7,6 +7,7 @@
   --card-hover-bg: #c0ffea;
   --text-color: #333;
   --border-radius: 15px;
+  --card-bg-secondary: #cccccc;
 }
 
 .dark-mode {
@@ -17,6 +18,7 @@
   --card-hover-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
   --card-hover-bg: #444;
   --text-color: #f1f1f1;
+  --card-bg-secondary: #333333;
 }
 
 .main-content {
@@ -38,3 +40,18 @@
     background-color: var(--card-hover-bg);
   }
 }
+
+body {
+  background-color : var(--card-bg-secondary);
+}
+
+button {
+  background-color: var(--card-bg-secondary);
+  border-color: var(--card-color);
+  color : var(--text-color);
+  &:hover {
+    background-color: var(--card-hover-bg);
+  }
+}
+
+

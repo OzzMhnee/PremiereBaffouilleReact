@@ -5,7 +5,7 @@ class Mom extends Component {
     state = {momMessage : null, childMessage : null }
 
     momOrder = () => { this.setState({momMessage: "Va faire tes devoirs"})}
-    childAnswer = () => { this.setState({ childMessage: "Attends, il faut que je finisse de jouer... !!"})}
+    childAnswer = () => { this.setState({ childMessage: "Attends, il FAUT ABSOLUMENT que je finisse de jouer... !!"})}
 
     render () {
         return (
