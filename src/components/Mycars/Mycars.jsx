@@ -5,6 +5,7 @@ import ImgFuego from "../../data/img/68aefead136ac.jpg"
 import ImgMini1000 from "../../data/img/68aefead136ac.jpg"
 import ImgRegal from "../../data/img/68aefead136ac.jpg"
 import ImgPégase from "../../data/img/68aefead136ac.jpg"
+import { Sbutton } from "../style/styledComponents";
 
 class Mycars extends Component {
     state = {
@@ -41,7 +42,7 @@ class Mycars extends Component {
         return (
             <div>
                 <h1>{this.props.title}</h1>
-                <button onClick={this.addTenYears}> Ajouter 10 ans </button>
+                <Sbutton onClick={this.addTenYears}> Ajouter 10 ans </Sbutton>
                 {this.state.voitures.map((voiture, idx) => (
                     <Cars key={idx} color={voiture.color} year={voiture.year} img={voiture.img} annee={voiture.year ? this.getAge(voiture.year) : ""} >{voiture.name}</Cars>
                 ))}

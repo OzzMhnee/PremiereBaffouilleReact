@@ -1,3 +1,5 @@
+import Form from "../Form/Form";
+
 const Car = ({children, color, year, annee, img}) => {
 
     return (children && color && year) && (
@@ -10,6 +12,7 @@ const Car = ({children, color, year, annee, img}) => {
             </div>
 
             <img src={`./../src/data/img/${img}`} alt={children} style={{ width : 200, height : 180, borderRadius : 15, objectFit: "cover"}} />
+            <Form />
         </div>
     )
 };

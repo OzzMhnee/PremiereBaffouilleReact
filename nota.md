@@ -5,7 +5,7 @@ REACT Prise en main :
 
 ## Création d'un nouveau projet React et options à choisir 
 ```bash
-npm create vite@latest nom_du_projet -- --template react 
+npm create vite@latest nom_du_projet -- --template react
 cd nom_du_projet
 npm intall
 npm run dev
