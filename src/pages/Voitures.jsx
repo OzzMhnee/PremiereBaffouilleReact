@@ -1,4 +1,3 @@
-import React from 'react';
 import Mycars from '../components/Mycars/Mycars';
 import { Component } from 'react';
 
