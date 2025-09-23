@@ -22,6 +22,7 @@ const Navbar = () => {
                     <li><Link to="/bonbons">Bonbons</Link></li>
                     <li><Link to="/todolist">TodoList</Link></li>
                     <li><Link to="/family">Family</Link></li>
+                    <li><Link to="/profil">Profil</Link></li>
                 </ul>
                 <button className="navbar-toggle" onClick={toggleDarkMode}>
                     {darkMode ? '☀️' : '🌙'}

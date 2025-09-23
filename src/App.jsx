@@ -9,6 +9,7 @@ import Voitures from './pages/Voitures';
 import TodoListPage from './pages/TodoList';
 import Home from './pages/Home';
 import Family from './pages/Family'
+import Profil from './pages/Profil';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path="/Home" element={<Home />} />
+                <Route path="/profil" element={<Profil />} />
                 <Route path="/bonbons" element={<Bonbons />} />
                 <Route path="/voitures" element={<Voitures />} />
                 <Route path="/todolist" element={<TodoListPage />} />
