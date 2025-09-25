@@ -1,6 +1,7 @@
 import Button from '../components/Buttons&cie/Button';
 import ProgressBar from '../components/hooks/ProgressBar';
 import { useCallback, useState } from 'react';
+import ClickSayHello from '../components/hooks/ClickSayHello';
 
 const Home = () => {
     const userName = "Jérémie";
@@ -18,6 +19,8 @@ const Home = () => {
     return (
         <div className="main-content">
             <h1>Bonjour, {userName} !</h1>
+            <ClickSayHello />
+            <hr />
             <h2>Hair's charging progress !</h2>
             <hr />
             <ProgressBar text='CountTwenty' count={countTwenty.value} bgColor={countTwenty.btnColor} />
