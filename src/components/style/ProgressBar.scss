@@ -1,0 +1,116 @@
+.progress:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height : 100%;
+    background-image: linear-gradient(to right,#FDE, #978 100%);
+    background-repeat: no-repeat;
+    background-size: 0;
+}
+
+.progress.animation::before {
+    animation: progressBar linear 1s forwards;
+}
+@keyframes progressBar {
+    0%	{ background-size: 0%; content: "0%"}
+    1%	{ background-size: 1%; content: "1%"}
+    2%	{ background-size: 2%; content: "2%"}
+    3%	{ background-size: 3%; content: "3%"}
+    4%	{ background-size: 4%; content: "4%"}
+    5%	{ background-size: 5%; content: "5%"}
+    6%	{ background-size: 6%; content: "6%"}
+    7%	{ background-size: 7%; content: "7%"}
+    8%	{ background-size: 8%; content: "8%"}
+    9%	{ background-size: 9%; content: "9%"}
+    10%	{ background-size: 10%; content: "10%"}
+    11%	{ background-size: 11%; content: "11%"}
+    12%	{ background-size: 12%; content: "12%"}
+    13%	{ background-size: 13%; content: "13%"}
+    14%	{ background-size: 14%; content: "14%"}
+    15%	{ background-size: 15%; content: "15%"}
+    16%	{ background-size: 16%; content: "16%"}
+    17%	{ background-size: 17%; content: "17%"}
+    18%	{ background-size: 18%; content: "18%"}
+    19%	{ background-size: 19%; content: "19%"}
+    20%	{ background-size: 20%; content: "20%"}
+    21%	{ background-size: 21%; content: "21%"}
+    22%	{ background-size: 22%; content: "22%"}
+    23%	{ background-size: 23%; content: "23%"}
+    24%	{ background-size: 24%; content: "24%"}
+    25%	{ background-size: 25%; content: "25%"}
+    26%	{ background-size: 26%; content: "26%"}
+    27%	{ background-size: 27%; content: "27%"}
+    28%	{ background-size: 28%; content: "28%"}
+    29%	{ background-size: 29%; content: "29%"}
+    30%	{ background-size: 30%; content: "30%"}
+    31%	{ background-size: 31%; content: "31%"}
+    32%	{ background-size: 32%; content: "32%"}
+    33%	{ background-size: 33%; content: "33%"}
+    34%	{ background-size: 34%; content: "34%"}
+    35%	{ background-size: 35%; content: "35%"}
+    36%	{ background-size: 36%; content: "36%"}
+    37%	{ background-size: 37%; content: "37%"}
+    38%	{ background-size: 38%; content: "38%"}
+    39%	{ background-size: 39%; content: "39%"}
+    40%	{ background-size: 40%; content: "40%"}
+    41%	{ background-size: 41%; content: "41%"}
+    42%	{ background-size: 42%; content: "42%"}
+    43%	{ background-size: 43%; content: "43%"}
+    44%	{ background-size: 44%; content: "44%"}
+    45%	{ background-size: 45%; content: "45%"}
+    46%	{ background-size: 46%; content: "46%"}
+    47%	{ background-size: 47%; content: "47%"}
+    48%	{ background-size: 48%; content: "48%"}
+    49%	{ background-size: 49%; content: "49%"}
+    50%	{ background-size: 50%; content: "50%"}
+    51%	{ background-size: 51%; content: "51%"}
+    52%	{ background-size: 52%; content: "52%"}
+    53%	{ background-size: 53%; content: "53%"}
+    54%	{ background-size: 54%; content: "54%"}
+    55%	{ background-size: 55%; content: "55%"}
+    56%	{ background-size: 56%; content: "56%"}
+    57%	{ background-size: 57%; content: "57%"}
+    58%	{ background-size: 58%; content: "58%"}
+    59%	{ background-size: 59%; content: "59%"}
+    60%	{ background-size: 60%; content: "60%"}
+    61%	{ background-size: 61%; content: "61%"}
+    62%	{ background-size: 62%; content: "62%"}
+    63%	{ background-size: 63%; content: "63%"}
+    64%	{ background-size: 64%; content: "64%"}
+    65%	{ background-size: 65%; content: "65%"}
+    66%	{ background-size: 66%; content: "66%"}
+    67%	{ background-size: 67%; content: "67%"}
+    68%	{ background-size: 68%; content: "68%"}
+    69%	{ background-size: 69%; content: "69%"}
+    70%	{ background-size: 70%; content: "70%"}
+    71%	{ background-size: 71%; content: "71%"}
+    72%	{ background-size: 72%; content: "72%"}
+    73%	{ background-size: 73%; content: "73%"}
+    74%	{ background-size: 74%; content: "74%"}
+    75%	{ background-size: 75%; content: "75%"}
+    76%	{ background-size: 76%; content: "76%"}
+    77%	{ background-size: 77%; content: "77%"}
+    78%	{ background-size: 78%; content: "78%"}
+    79%	{ background-size: 79%; content: "79%"}
+    80%	{ background-size: 80%; content: "80%"}
+    81%	{ background-size: 81%; content: "81%"}
+    82%	{ background-size: 82%; content: "82%"}
+    83%	{ background-size: 83%; content: "83%"}
+    84%	{ background-size: 84%; content: "84%"}
+    85%	{ background-size: 85%; content: "85%"}
+    86%	{ background-size: 86%; content: "86%"}
+    87%	{ background-size: 87%; content: "87%"}
+    88%	{ background-size: 88%; content: "88%"}
+    89%	{ background-size: 89%; content: "89%"}
+    90%	{ background-size: 90%; content: "90%"}
+    91%	{ background-size: 91%; content: "91%"}
+    92%	{ background-size: 92%; content: "92%"}
+    93%	{ background-size: 93%; content: "93%"}
+    94%	{ background-size: 94%; content: "94%"}
+    95%	{ background-size: 95%; content: "95%"}
+    96%	{ background-size: 96%; content: "96%"}
+    97%	{ background-size: 97%; content: "97%"}
+    98%	{ background-size: 98%; content: "98%"}
+    99%	{ background-size: 99%; content: "99%"}
+    100%	{ background-size: 100%; content: "Animation terminée !"}
+}
